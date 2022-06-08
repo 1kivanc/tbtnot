@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+</head>
+<style>
+    .felx{
+        display: flex;
+        height: 300px;
+        border:3px solid red;
+    }.felx div{
+        height: 200px;
+        width: 100px;
+        background-color: blueviolet;
+        border: 2px solid red;
+
+    }.kutu1{
+        flex-basis: 50%;
+        order: 2;
+        align-self:center;
+    }.kutu2{
+        order:1;
+        align-self:baseline
+        
+    }.kutu3{
+        order:3;
+    }.kutu4{
+        order:4;
+    }
+
+    
+</style>
+<body>
+    <div class="felx">    
+    
+    <div class="kutu1">1</div>
+    <div class="kutu2">2</div>
+    <div class="kutu3">3</div>
+    <div class="kutu4">4</div>
+   </div>
+
+</body>
+</html>

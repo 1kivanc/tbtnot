@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+    .green{
+        background-color: green;
+        z-index: 2;
+    }.blue{
+        top:-100px;
+        left:30px;
+        background-color: blue;
+        z-index: 1;
+    }.gray{
+        background-color: gray;
+        top:-130px;
+
+    }
+</style>
+<body>
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="gray"></div>
+</body>
+</html>
